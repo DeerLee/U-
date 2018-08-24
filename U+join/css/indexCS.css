@@ -5,14 +5,12 @@ html,body{
 
 /*顶部导航部分*/
 #nav1{
-	height: 80px;
 	font-size: 20px;
 }
 #nav-header{}
 #nav2{
 	padding-top: 15px;
-	margin-left: 30%;
-	
+	margin-left:17%;
 }
 #myCarousel{
 
@@ -32,6 +30,35 @@ html,body{
 #paneltext{
 	font-size: 14px;
 }
+#paneltextbtn{
+	margin-left: 8px;
+}
+/*展示部分*/
+#zhanshi{
+	background-color:#F4F5FA; 
+	margin-top: 20px;
+	padding: ;
+	width: 100%;
+	height: auto;
+	border-radius:5px;
+/*	box-shadow:0px 0px 2px 2px #aaa;*/
+}
+
+#zsadkuang{
+
+}
+#zsad{
+	background-color:white; 
+	padding: 0;
+	margin: 11px;
+	width: 185px;
+	height: auto;
+	border-radius:5px;
+	box-shadow:0px 0px 1px 1px #aaa;
+}
+#adimg{
+	width: 100px;
+}
 /*宣传部分*/
 #AD{
 	color: #31B0D5;
@@ -39,6 +66,5 @@ html,body{
 /*footer*/
 #footer{
 	background-color: #3C3C3C;
-	font-size: 10%;
 	height:auto;
 }
