@@ -37,22 +37,20 @@ html,body{
 #zhanshi{
 	background-color:#F4F5FA; 
 	margin-top: 20px;
-	padding: ;
 	width: 100%;
 	height: auto;
 	border-radius:5px;
 /*	box-shadow:0px 0px 2px 2px #aaa;*/
 }
-
 #zsadkuang{
 
 }
 #zsad{
 	background-color:white; 
-	padding: 0;
-	margin: 11px;
-	width: 185px;
+	margin: 15px;
+	width: 200px;
 	height: auto;
+	float: left;
 	border-radius:5px;
 	box-shadow:0px 0px 1px 1px #aaa;
 }
