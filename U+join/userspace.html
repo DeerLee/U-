@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+	    <meta name="viewport" content="width=device-width,initial-scale=1">
+	    <link rel="shortcut icon" href="img/favicon.ico">
+	    <title>U+加盟网</title>
+		<script src="js/bootstrap-3.3.7-dist/js/jquery.min.js"></script>
+		<script src="js/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	    <link rel="stylesheet" type="text/css" href="js/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+	  	<link rel="stylesheet" type="text/css" href="css/userspaceCS.css" />
+</head>
+<body>
+	<!--
+    	作者：1173891876@qq.com
+    	时间：2018-08-14
+    	描述：网页头部导航栏部分
+    -->
+<nav class="navbar navbar-default" id="navA" role="navigation"> 
+   <div class="navbar-header"> 
+      <button type="button" class="navbar-toggle" data-toggle="collapse"  
+         data-target="#nav1"> 
+         <span class="sr-only">切换导航</span> 
+         <span class="icon-bar"></span> 
+         <span class="icon-bar"></span> 
+         <span class="icon-bar"></span> 
+      </button> 
+      <a class="navbar-brand" href="#"><img src="img/favicon.ico" id="logo1"></a> 
+   </div> 
+   <div class="collapse navbar-collapse" id="nav1"> 
+		<ul class="nav navbar-nav">
+			<li><a class="active">首页</a></li>
+			<li><a href="#">我要加盟</a></li>
+			<li><a href="#">我要入驻</a></li>     
+			<li><a href="#">加盟评估</a></li>  
+			<li><a href="#">加盟排行</a></li>  
+		</ul>
+		<div class="nav navbar-right" id="navlg">
+			<a><span class="glyphicon glyphicon-user" id="user-id">妈妈烤包</span></a>
+		</div>
+
+
+   </div> 
+</nav> 
+
+<!--
+	作者：1173891876@qq.com
+	时间：2018-08-14
+	描述：网页身体部分
+-->
+
+<div class="row">
+	<!--
+    	作者：1173891876@qq.com
+    	时间：2018-08-14
+    	描述：你们中间要添加的东西都在这对标签里面
+    -->
+    <div class="col-lg-12" id="usp_head">
+		<h1 class="glyphicon glyphicon-home">品牌商管理中心</h1>
+    </div>
+    <div class="col-lg-12" id="usp_body">
+    	<div class="col-lg-3" id="usp_left">
+    		<ul class="nav nav-pills nav-stacked text-center">
+			  <li><a href="#">基本信息</a></li>
+			  <li><a href="#">加盟消息</a></li>
+			</ul>
+    	</div>
+    	<div class="col-lg-9" id="usp_right">
+    		<div class="col-lg-12">
+    			<h3><span class="glyphicon glyphicon-list-alt"></span>基本信息</h3>
+    		</div>
+    		<div class="col-lg-12">
+    			<form class="form">
+	    			<p>品牌logo</p>
+	    			<hr />
+	    			<div class="col-md-12 form-group" id="usp_logo">
+	    				<div class="col-md-2">
+	    					logo：
+	    				</div>
+	    				<div class="col-md-10">
+	    					<img src="img/ad5.png" id="usp_logoimg"/>
+							<input type="file" placeholder="上传"></input>
+	    				</div>
+	
+	    			</div>
+	    			<p>基本资料</p>
+	    			<hr/>
+	    			<div class="col-md-8 col-md-offset-2" id="usp_text">
+	    				<div class="from-group-sm">
+	    					<label for="name">品牌名称:</label>
+	    				    <input type="text" class="form-control" placeholder="请输入品牌名称" />
+	    				</div>
+	    				<div class="from-group-sm">
+	    					<label for="品牌宣传语">品牌宣传语:</label>
+	    					<input type="text" class="form-control" placeholder="请输入品牌宣传语" />
+	    				</div>
+	    				<div class="from-group-sm">
+	    					<label for="主营项目">主营项目:</label>
+	    					<input type="text" class="form-control" placeholder="请输入主营项目" />
+	    				</div>
+	    				<div class="from-group-sm">
+	    					<label for="公司名称">公司名称:</label>
+	    					<input type="text" class="form-control" placeholder="请输入公司名称" />
+	    				</div>
+	    				<div class="from-group-sm">
+	    					<label for="成立时间">成立时间:</label>
+	    					<input type="text" class="form-control" placeholder="请输入成立时间" />
+	    				</div>
+	    				<div class="from-group-sm">
+	    					<label for="成立时间">企业性质:</label><br/>
+							   <select class="btn btn-group-sm" id="usp_qiyexingzhi">
+							   	<option value>请选择企业性质</option>
+							   	<option value="">民营企业</option>
+							   	<option value="">国营企业</option>
+							   	<option value="">合资企业</option>
+							   	<option value="">外资企业</option>
+							   </select>
+	    				</div>
+	    				<div class="from-group-sm">
+	    					<label for="官方网站">官方网站:</label>
+	    					<input type="text" class="form-control" placeholder="请输入官方网站"  />
+	    				</div>
+	    				<div class="from-group-sm">
+	    					<label for="品牌介绍">品牌介绍:</label>
+	    					<textarea class="form-control" rows="6"></textarea>
+	    				</div>
+	    			</div>
+	    			<div class="col-lg-6"></div>
+	    		</form>
+    		</div>
+    		
+    	</div>
+    </div>
+</div>
+
+
+<!--
+	作者：1173891876@qq.com
+	时间：2018-08-15
+	描述：网页脚部
+-->
+<div class="row">
+		<div class="col-lg-12" id="footer">
+			<div class="col-md-6 col-md-offset-3">
+				<p>&nbsp;</p>
+				<div class="col-sm-12" align="center">
+					<img src="img/footlogo.png" height="70px" />
+				</div>
+				<p></p>
+				<div class="col-md-12 text-center text-info">
+					<p>
+						咨询电话：400-820-8820（周一至周日 8:00-21:00）<br/>
+						服务监督热线： 400-066-8780（周一至周日 9:00-21:00）<br/>
+						互联网违法或不良信息举报联系方式： 邮箱： jubao@ujoin.com<br/>
+					 	电话：014-888888
+					</p>
+					
+					<p class="text-info text-center">陕西省西安市高新区太白南路优质加盟信息网&reg;版权所有</p>
+				</div>
+			</div>
+		</div>
+</div>
+</body>
+</html>
