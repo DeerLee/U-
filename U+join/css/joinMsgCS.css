@@ -19,20 +19,27 @@ html,body{
 	margin-left: 10%;
 }
 
-#usp_head{
+#joinmsg_head{
 	height: 100px;
 	margin-top: 0px;
 	background-color: #2AABD2;
 	color: white;
 }
-#usp_body{
+#joinmsg_body{
 	
 }
-#usp_message{
-	background-color: #DDDDDD;
+#joinmsg_left{
+	height: auto;
+	font-size: 30px;
 }
-#usp_form{
-
+#joinmsg_right{
+	background-color: #D5D5D5;
+	min-height: 500px;
+}
+#joinmsg_box{
+	padding: 0px;
+	border-radius: 8px;
+	margin-bottom:20px ;
 }
 
 #footer{
