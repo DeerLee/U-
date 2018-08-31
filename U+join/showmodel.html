@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+	    <meta name="viewport" content="width=device-width,initial-scale=1">
+	    <link rel="shortcut icon" href="img/favicon.ico">
+	    <title>U+加盟网</title>
+		<script src="js/bootstrap-3.3.7-dist/js/jquery.min.js"></script>
+		<script src="js/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	    <link rel="stylesheet" type="text/css" href="js/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+	  	<link rel="stylesheet" type="text/css" href="css/showModelCS.css">
+</head>
+<body>
+	<!--
+    	作者：1173891876@qq.com
+    	时间：2018-08-14
+    	描述：网页头部导航栏部分
+    -->
+    <!--底部返回锚点-->
+    <a name="top"></a>
+<nav class="navbar navbar-default" role="navigation"> 
+   <div class="navbar-header"> 
+      <button type="button" class="navbar-toggle" data-toggle="collapse"  
+         data-target="#nav1"> 
+         <span class="sr-only">切换导航</span> 
+         <span class="icon-bar"></span> 
+         <span class="icon-bar"></span> 
+         <span class="icon-bar"></span> 
+      </button> 
+      <a class="navbar-brand" href="index.html"><img src="img/favicon.ico" id="logo1"></a> 
+   </div> 
+   <div class="collapse navbar-collapse" id="nav1"> 
+		<ul class="nav navbar-nav">
+			<li><a href="index.html">首页</a></li>
+			<li><a href="#">我要加盟</a></li>
+			<li><a href="#">我要入驻</a></li>     
+			<li><a href="#">加盟评估</a></li>  
+			<li><a href="#">加盟排行</a></li>  
+		</ul>
+	  	<form class="navbar-form navbar-right" role="search">
+	   		<div class="input-group">
+				<input type="text" class="form-control" id="sou1" placeholder="搜索你想知道的"/>
+				<span class="input-group-btn">
+					<button class="btn btn-default">
+						<span class=" glyphicon glyphicon-search"></span>
+					</button>
+				</span>
+			</div>
+   		</form>
+   </div> 
+</nav> 
+
+<!--
+	作者：1173891876@qq.com
+	时间：2018-08-14
+	描述：网页身体部分
+-->
+<div class="container">
+	<div class="row" id="showmd">
+		<!--
+        	作者：1173891876@qq.com
+        	时间：2018-08-14
+        	描述：你们中间要添加的东西都在这对标签里面
+        -->
+        <div class="col-md-12" id="showmd_daohang">
+        	<ol class="breadcrumb text-nowrap">
+				<li><a href="index.html">首页</a></li>
+				<li><a href="#">找项目</a></li>
+				<li><a href="" class="active">新加坡妈妈烤包</a></li>
+        	</ol>	
+        </div>
+        <div class="col-md-12" id="showmd_body">
+        	<!--
+            	作者：1173891876@qq.com
+            	时间：2018-08-31
+            	描述：网页身体左边部分
+            -->
+        	<div class="col-md-12" style="background-color: #EEEEEE">
+        		<!--
+                	作者：1173891876@qq.com
+                	时间：2018-08-31
+                	描述：展示轮播图部分
+                -->
+        		<div class="col-md-5">
+        			<!--轮播图-->
+        			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+					    <!-- 轮播（Carousel）指标 -->
+					    <ol class="carousel-indicators">
+					        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					        <li data-target="#myCarousel" data-slide-to="1"></li>
+					        <li data-target="#myCarousel" data-slide-to="2"></li>
+					        <li data-target="#myCarousel" data-slide-to="3"></li>
+					        <li data-target="#myCarousel" data-slide-to="4"></li>
+					        
+					    </ol>   
+					    <!-- 轮播（Carousel）项目 -->
+					    <div class="carousel-inner">
+					        <div class="item active">
+					            <img src="public/company/1001/upload/img/ad1.png" id="lbimg" alt="First slide">
+					        </div>
+					        <div class="item">
+					            <img src="public/company/1001/upload/img/ad2.png" id="lbimg" alt="Second slide">
+					        </div>
+					        <div class="item">
+					            <img src="public/company/1001/upload/img/ad3.png" id="lbimg" alt="Third slide">
+					        </div>
+					        <div class="item">
+					            <img src="public/company/1001/upload/img/ad4.png" id="lbimg" alt="Forth slide">
+					        </div>
+					        <div class="item">
+					            <img src="public/company/1001/upload/img/ad5.png" id="lbimg" alt="Fifth slide">
+					        </div>
+					    </div>
+						<!-- 轮播（Carousel）导航 -->
+						<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+					<div class="col-md-12">
+						<p class="text text-muted text-nowrap text-center"><font size="2">点击<span class="text-success"><strong>我要加盟</strong></span>即可提交个人联系信息</font></p>
+					</div>
+        		</div>
+        		<!--
+                	作者：1173891876@qq.com
+                	时间：2018-08-31
+                	描述：店铺简要信息部分
+                -->
+        		<div class="col-md-7">
+        			<div class="col-md-12">
+        				<h3><strong>新加坡妈妈烤包</strong></h3>
+        			</div>
+        			<div class="col-md-12">
+        				<p class="text-muted text-nowrap">投资金额　<font size="5" color="crimson"><strong>20-30万</strong></font></p>
+        			</div>
+        			<div class="col-md-12">
+        				<p class="text-muted">直营店数　<font size="3" color="crimson">2家</font></p>
+        			</div>
+        			<div class="col-md-12">
+        				<p class="text-muted">加盟店数　<font size="3" color="crimson">988家</font></p>
+        			</div>
+        			<div class="col-md-12">
+        				<p class="text-muted">公司名称　<font size="3" color="#080808">深圳市好朋友国际品牌管理有限公司</font></p>
+        			</div>
+        			<div class="col-md-12">
+        				<p class="text-muted"><span class="glyphicon glyphicon-phone-alt"></span>加盟热线　<font size="3" class="text-primary">400-8888-8888</font></p>
+        			</div>
+        			<!--提交加盟者信息到品牌商后台-->
+        			<div class="col-md-12">
+						<a href="#" class="btn btn-success btn-block">我 要 加 盟</a>
+        			</div>
+        		</div>
+				<div class="col-md-12" style="margin-top: 50px;" id="showmd_xiangxizs">
+					<!--店铺展示导航栏-->
+					<div class="col-md-12">
+						<ul class="nav nav-justified nav-tabs">
+							<li class="active"><a href="#ppxq">品牌详情</a></li>
+							<li><a href="#jmyx">加盟优势</a></li>
+							<li><a href="#jmtj">加盟条件</a></li>
+						</ul>
+					</div>
+					<!--店铺展示内容-->
+					<div class="col-md-12">
+						<!--品牌详情-->
+						<div class="col-md-12">
+							<!--锚点-->
+							<a name="ppxq"></a>
+							<!--标题-->
+								<h4 class="text-primary"><strong><span class="glyphicon glyphicon-th-list"></span>新加坡妈妈烤包品牌详情</strong></h4>
+								<!--
+                                	作者：1173891876@qq.com
+                                	时间：2018-09-01
+                                	描述：基本信息动态表格,数据动态,从品牌商数据库获取
+                                -->
+								<div class="col-md-5">
+									<table class="table table-responsive">
+										<tr>
+											<td>
+												主营项目：烤包
+											</td>
+										</tr>
+										<tr>
+											<td>
+												成立时间：2022-01-01
+											</td>
+										</tr>
+										<tr>
+											<td>
+												经营范围：烘焙
+											</td>
+										</tr>
+										<tr>
+											<td>
+												公司名称：深圳市好朋友国际品牌管理有限公司
+											</td>
+										</tr>
+									</table>
+								</div>
+								<div class="col-md-5 col-md-offset-1">
+									<table class="table table-responsive">
+										<tr>		
+											<td>
+												总部地址：中国深圳
+											</td>									
+										</tr>
+										<tr>
+											<td>
+												企业性质：民营企业
+											</td>
+										</tr>
+										<tr>
+											<td>
+												合同期限：3年
+											</td>
+										</tr>
+										<tr>
+											<td>
+												官方网站：www.xxxx.com
+											</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+						</div>
+						<!--加盟优势-->
+						<!--
+                        	作者：1173891876@qq.com
+                        	时间：2018-09-01
+                        	描述：暂定模板,具体内容根据品牌商数据库内容再改
+                        -->
+						<div class="col-md-12">
+							<!--锚点-->
+							<a name="jmyx"></a>
+							<div class="col-md-12">
+								<h4 class="text-primary"><strong><span class="glyphicon glyphicon-th-list"></span>加盟优势</strong></h4>
+							</div>
+							<div class="col-md-10 col-md-offset-1">
+								<p id="showmd_text">
+								谈到食物，妈妈是行家。妈妈总知道什么对你来说是好的。在饭店和饮食街似乎没有完美的事物，在妈妈看来，这些事物要么含太多味精，要么太咸或太淡，太油腻。
+								</p>
+								<p id="showmd_text"><img src="public/company/1001/upload/img/show1.png" class="img-responsive"/></p>
+								<p id="showmd_text">
+									2004年，新加坡，三位妈妈，一个烘焙师，一个化学家，还有一个全职妈妈，他们为了给家人和朋友提供美味健康的烤包和饮品，经过大量的研究实验，反复地严格品尝测试后，推出妈妈烤包和健康纯果汁特饮一系列让人无法抗拒的美食。
+								</p>
+								<p class="text-justify" id="showmd_text">
+									新加坡妈妈烤包沁人心脾的芳香和令人回味无穷的味道总是使我们回想起妈妈做的传统的原汁原味的烘烤味，所以我们把它命名为妈妈烤包。
+								</p>
+								<p id="showmd_text"><img src="public/company/1001/upload/img/show2.png" class="img-responsive"/></p>
+								<p id="showmd_text">
+									嘿！您可别小瞧！新加坡妈妈烤包可是经过化学师和面包师大量的研究实验．反复地严格品尝测试后，才于2004年推出市场。 经过众多的顾客品尝，妈妈烤包毫无争议是受欢迎、美味的食品。并于2005年1月23日新加坡《星期日泰晤士抿》给子4.5颗星级（满星为5星）。
+								</p>
+								<p id="showmd_text">
+									为了让更多人能品尝到新加坡妈妈烤包的美味」我们的扩张脚步一刻也没有停息，现在不仅在新加坡．印度尼西亚．菲律宾．泰 国都有新加坡妈妈烤包的零售店。在中国和韩国我们也陆续开设了很多分店。随之而来将会有更多的概念店在不同的区域成立， 连锁加盟经营。
+								</p>
+								<p id="showmd_text">
+									新加坡妈妈烤包已经成功建立起一个现代化中心厂房（获新加坡农粮局AVA全权发证），每天生产新鲜的面团配送各连锁店制作销售．从奶油的采购到面团生产都经过过严格的卫生监控．直到今天，新加坡妈妈烤包的口味仍在接受不断的改良，以确保顾客满意。
+								</p>
+								<p id="showmd_text">
+									我们所有的连锁经营店都是符合统一标准。从材料的准备到生产操作流程都是台乎统一规定的，我们确保顾客无论惠顾哪一家新 加坡妈妈烤包连锁零售店，都能快速地享受到健康．营养．美味的高质量烤包。另外，我们还建立了一套完整的员工培训体系， 以确保所有员工都能高标准地为顾客服务。
+								</p>
+								<p id="showmd_text">
+									我们有一个简单的信念，让顾客以合理的价格购买到健康、营养、美味的高质量独特口味的烤包，享受到我们优质的服务。新加 坡妈妈烤包已发展成为新加坡成长最快的连锁经营企业一。
+								</p>
+								<h4 class="text-primary"><span class="glyphicon glyphicon-flag"></span>优势</h4>
+								<p id="showmd_text">
+									<strong>支持与服务:</strong>
+								</p>
+								<p id="showmd_text">
+									<strong>我们拥有正规的加盟体系：</strong><br/><br/>新加坡总公司为新加坡FLA协会会员，提供完善的加盟流程和体系、专业的加盟团队
+								</p>
+								<p id="showmd_text">
+									<strong>选址评估：</strong><br /><br />
+									提供专业的选址咨询与评估建议
+								</p>
+								<p id="showmd_text">
+									<strong>营建支持：</strong><br /><br />
+									标准化设计，施工管理支持，工程验收支持
+								</p>
+								<p id="showmd_text">
+									<strong>系统培训：</strong><br /><br />
+									营运培训，管理培训，生产培训，销售培训
+								</p>
+								<p id="showmd_text">
+									<strong>营运管理支持：</strong><br /><br />
+									新店开业支持，健康的营运管理系统，日常营运辅导，管导服务
+								</p>
+								<p id="showmd_text">
+									<strong>行销策划与广告支持：</strong><br/><br/>
+									策划全国性促销方案、提供单店行销方案辅导品牌公关与媒体广告投入、专业的企划品设计和制
+								</p>
+								<p id="showmd_text">
+									<strong>采购支持与配送服务：</strong><br /><br />
+									规模化的统采购、标准的配送系
+								</p>
+								<p id="showmd_text">
+									<strong>新产品研发：</strong><br /><br />
+									全国性产品研发、地域性开发支持与市核、公共事务支持提供专业的公关事务咨询、协助处理危机事务
+								</p>
+							</div>
+						</div>
+						<!--加盟条件-->
+						<div class="col-md-12">
+							<!--锚点-->
+							<a name="jmtj"></a>
+							<div class="col-md-12">
+								<h4 class="text-primary"><strong><span class="glyphicon glyphicon-th-list"></span>加盟条件</strong></h4>
+							</div>
+							<div class="col-md-10 col-md-offset-1">
+								<h4 class="text-primary"><span class="glyphicon glyphicon-list-alt"></span>新加坡妈妈烤包加盟条件</h4>
+								<p class="text" id="showmd_text">
+									认同妈妈烤包文化，坚持统一，系统， 标准化原则，
+								</p>
+								<p class="text" id="showmd_text">
+									正直诚信，积极主动，亲目投入，持续专注经营，理解餐饮及服务的运作模式:以客为本，服务，体验与互动;良好的商业意识，成功的营销经验，但永远保持创业激情;长远规划，公司化及区域管理;
+								</p>
+								<p class="text" id="showmd_text">
+									人力资源管理能力:招募合作伙伴，管理及培训员工，培养管理层，建立公司文化。
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+        	</div>
+        	<!--
+            	作者：1173891876@qq.com
+            	时间：2018-09-01
+            	描述：上跳返回到加盟按钮
+            -->
+        	<div class="col-md-12 text-center" style="padding-top: 30px;">
+				<a href="#top" class="btn btn-default btn-lg">
+					<span class="glyphicon glyphicon-menu-up"></span><br/>回到顶部
+				</a>
+        	</div>
+        </div>
+	</div>
+</div>
+
+<!--
+	作者：1173891876@qq.com
+	时间：2018-08-15
+	描述：网页脚部
+-->
+<div class="row">
+	<div class="col-md-12 text-center" id="footer">
+		<div class="col-md-12">
+			<img src="img/footlogo.png" height="50px" />
+			<p class="text-info">
+				咨询电话：400-820-8820（周一至周日 8:00-21:00）
+				服务监督热线： 400-066-8780（周一至周日 9:00-21:00）<br/>
+				互联网违法或不良信息举报联系方式： 邮箱： jubao@ujoin.com
+			 	电话：014-888888
+			</p>
+		</div>
+		<div class="col-md-12 text-info text-center">
+			<p class="text-info text-center">陕西省西安市高新区太白南路优质加盟信息网&reg;版权所有</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
