@@ -10,7 +10,7 @@
 		<script src="js/bootstrap-3.3.7-dist/js/jquery.min.js"></script>
 		<script src="js/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 	    <link rel="stylesheet" type="text/css" href="js/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
-	  	<link rel="stylesheet" type="text/css" href="css/defaultCS.css">
+	  	<link rel="stylesheet" type="text/css" href="css/search.css">
 </head>
 <body>
 	<!--
@@ -49,7 +49,6 @@
    		</form>
    </div> 
 </nav> 
-
 <!--
 	作者：1173891876@qq.com
 	时间：2018-08-14
@@ -62,6 +61,160 @@
         	时间：2018-08-14
         	描述：你们中间要添加的东西都在这对标签里面
         -->
+        <!--面包屑导航部分-->
+        <div class="col-md-12" id="search_daohang">
+        	<ol class="breadcrumb text-nowrap">
+				<li><a href="index.html">首页</a></li>
+				<li><a href="searchshow.html">找项目</a></li>
+        	</ol>	
+        </div>
+        <!--搜索框-->
+        <div class="col-md-6 col-md-offset-3" id="search_box">
+    		<div class="">
+    			<h3 class="text-center">加盟条件</h3>
+    		</div>
+    		<div class="text-center" style="margin-bottom: 5px;">
+			<span>加盟价位：</span>
+				<select name="jiage_selt" class="btn btn-default">
+					<option value="">选择价位</option>
+					<option value="">不限</option>
+					<option value="">10万以下</option>
+					<option value="">10-20万</option>
+					<option value="">21-50万</option>
+					<option value="">51-100万</option>
+				</select>
+			</div>
+			<div class="text-center">
+				<span>加盟区域：</span>
+					<select name="jiage_selt" class="btn btn-default">
+						<option value="">选择区域</option>
+						<option value="">不限</option>
+						<option value="">北京</option>
+						<option value="">上海</option>
+						<option value="">天津</option>
+						<option value="">重庆</option>
+						<option value="">广东</option>
+						<option value="">北京</option>
+						<option value="">北京</option>
+						<option value="">北京</option>
+						<option value="">北京</option>
+						<option value="">北京</option>
+						<option value="">北京</option>
+						<option value="">北京</option>
+					</select>
+			</div>
+			<div class="panel-body text-center">
+				<a class="btn btn-success">搜索</a>
+			</div>
+        </div>
+        <hr />
+        <!--搜索显示-->
+        <div class="col-md-10 col-md-offset-1" id="search_show">
+        	<div>
+        		<p><font size="5"><strong>加盟项目</strong></font></p>
+        	</div>
+        	<hr />
+        	<div id="msg_box">
+	        	<div id="search_show_box">
+        			<a id="msg_link" href="showmodel.html">
+						<table class="table">
+							<tr>
+								<td class="col-sm-3" id="pinpai_logo"><img id="pinpai_logo" src="img/ad5.png"/></td>
+								<td class="col-sm-6" id="pinpai_xinxi" style="padding-left: 25px;">
+									<p><font size="5"><strong>新加坡妈妈烤包　</strong></font><font size="2">/吃现烤,才够看</font></p>
+									<p><font size="3">加盟店数：998　</font><font size="3">直营店数：2</font></p>
+									<p><font size="3">成立时间：2088-01-01</font></p>
+									<p><font size="3">投资金额：</font><font size="5" color="crimson"><strong>21-50万</strong></font></p>
+								</td>
+								<td class="col-sm-3" id="pinpai_join" style="padding-top: 60px;">
+									<a class="btn btn-block btn-success">加盟</a>
+								</td>
+							</tr>
+						</table>
+   					</a>
+	        	</div>
+       		</div>
+       		<div id="msg_box">
+	        	<div id="search_show_box">
+        			<a id="msg_link" href="showmodel.html">
+						<table class="table">
+							<tr>
+								<td class="col-sm-3" id="pinpai_logo"><img id="pinpai_logo" src="img/ad5.png"/></td>
+								<td class="col-sm-6" id="pinpai_xinxi" style="padding-left: 25px;">
+									<p><font size="5"><strong>新加坡妈妈烤包　</strong></font><font size="2">/吃现烤,才够看</font></p>
+									<p><font size="3">加盟店数：998　</font><font size="3">直营店数：2</font></p>
+									<p><font size="3">成立时间：2088-01-01</font></p>
+									<p><font size="3">投资金额：</font><font size="5" color="crimson"><strong>21-50万</strong></font></p>
+								</td>
+								<td class="col-sm-3" id="pinpai_join" style="padding-top: 60px;">
+									<a class="btn btn-block btn-success">加盟</a>
+								</td>
+							</tr>
+						</table>
+   					</a>
+	        	</div>
+       		</div>
+       		<div id="msg_box">
+	        	<div id="search_show_box">
+        			<a id="msg_link" href="showmodel.html">
+						<table class="table">
+							<tr>
+								<td class="col-sm-3" id="pinpai_logo"><img id="pinpai_logo" src="img/ad5.png"/></td>
+								<td class="col-sm-6" id="pinpai_xinxi" style="padding-left: 25px;">
+									<p><font size="5"><strong>新加坡妈妈烤包　</strong></font><font size="2">/吃现烤,才够看</font></p>
+									<p><font size="3">加盟店数：998　</font><font size="3">直营店数：2</font></p>
+									<p><font size="3">成立时间：2088-01-01</font></p>
+									<p><font size="3">投资金额：</font><font size="5" color="crimson"><strong>21-50万</strong></font></p>
+								</td>
+								<td class="col-sm-3" id="pinpai_join" style="padding-top: 60px;">
+									<a class="btn btn-block btn-success">加盟</a>
+								</td>
+							</tr>
+						</table>
+   					</a>
+	        	</div>
+       		</div>
+       		<div id="msg_box">
+	        	<div id="search_show_box">
+        			<a id="msg_link" href="showmodel.html">
+						<table class="table">
+							<tr>
+								<td class="col-sm-3" id="pinpai_logo"><img id="pinpai_logo" src="img/ad5.png"/></td>
+								<td class="col-sm-6" id="pinpai_xinxi" style="padding-left: 25px;">
+									<p><font size="5"><strong>新加坡妈妈烤包　</strong></font><font size="2">/吃现烤,才够看</font></p>
+									<p><font size="3">加盟店数：998　</font><font size="3">直营店数：2</font></p>
+									<p><font size="3">成立时间：2088-01-01</font></p>
+									<p><font size="3">投资金额：</font><font size="5" color="crimson"><strong>21-50万</strong></font></p>
+								</td>
+								<td class="col-sm-3" id="pinpai_join" style="padding-top: 60px;">
+									<a class="btn btn-block btn-success">加盟</a>
+								</td>
+							</tr>
+						</table>
+   					</a>
+	        	</div>
+       		</div>
+       		<div id="msg_box">
+	        	<div id="search_show_box">
+        			<a id="msg_link" href="showmodel.html">
+						<table class="table">
+							<tr>
+								<td class="col-sm-3" id="pinpai_logo"><img id="pinpai_logo" src="img/ad5.png"/></td>
+								<td class="col-sm-6" id="pinpai_xinxi" style="padding-left: 25px;">
+									<p><font size="5"><strong>新加坡妈妈烤包　</strong></font><font size="2">/吃现烤,才够看</font></p>
+									<p><font size="3">加盟店数：998　</font><font size="3">直营店数：2</font></p>
+									<p><font size="3">成立时间：2088-01-01</font></p>
+									<p><font size="3">投资金额：</font><font size="5" color="crimson"><strong>21-50万</strong></font></p>
+								</td>
+								<td class="col-sm-3" id="pinpai_join" style="padding-top: 60px;">
+									<a class="btn btn-block btn-success">加盟</a>
+								</td>
+							</tr>
+						</table>
+   					</a>
+	        	</div>
+       		</div>
+        </div>
 	</div>
 </div>
 
@@ -71,25 +224,20 @@
 	描述：网页脚部
 -->
 <div class="row">
-		<div class="col-lg-12" id="footer">
-			<div class="col-md-6 col-md-offset-3">
-				<p>&nbsp;</p>
-				<div class="col-sm-12" align="center">
-					<img src="img/footlogo.png" height="70px" />
-				</div>
-				<p></p>
-				<div class="col-md-12 text-center text-info">
-					<p>
-						咨询电话：400-820-8820（周一至周日 8:00-21:00）<br/>
-						服务监督热线： 400-066-8780（周一至周日 9:00-21:00）<br/>
-						互联网违法或不良信息举报联系方式： 邮箱： jubao@ujoin.com<br/>
-					 	电话：014-888888
-					</p>
-					
-					<p class="text-info text-center">陕西省西安市高新区太白南路优质加盟信息网&reg;版权所有</p>
-				</div>
-			</div>
+	<div class="col-md-12 text-center" id="footer">
+		<div class="col-md-12">
+			<img src="img/footlogo.png" height="50px" />
+			<p class="text-info">
+				咨询电话：400-820-8820（周一至周日 8:00-21:00）
+				服务监督热线： 400-066-8780（周一至周日 9:00-21:00）<br/>
+				互联网违法或不良信息举报联系方式： 邮箱： jubao@ujoin.com
+			 	电话：014-888888
+			</p>
 		</div>
+		<div class="col-md-12 text-info text-center">
+			<p class="text-info text-center">陕西省西安市高新区太白南路优质加盟信息网&reg;版权所有</p>
+		</div>
+	</div>
 </div>
 </body>
 </html>
