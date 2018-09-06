@@ -73,19 +73,20 @@
     		<div class="">
     			<h3 class="text-center">加盟条件</h3>
     		</div>
-    		<div class="text-center" style="margin-bottom: 5px;">
-			<span>加盟价位：</span>
-				<select name="jiage_selt" class="btn btn-default">
-					<option value="">选择价位</option>
-					<option value="">不限</option>
-					<option value="">10万以下</option>
-					<option value="">10-20万</option>
-					<option value="">21-50万</option>
-					<option value="">51-100万</option>
-				</select>
-			</div>
-			<div class="text-center">
-				<span>加盟区域：</span>
+    		<form class="form">
+    			<div class="form-group text-center" style="margin-bottom: 5px;">
+					<span>加盟价位：</span>
+					<select name="jiage_selt" class="btn btn-default">
+						<option value="">选择价位</option>
+						<option value="">不限</option>
+						<option value="">10万以下</option>
+						<option value="">10-20万</option>
+						<option value="">21-50万</option>
+						<option value="">51-100万</option>
+					</select>
+				</div>
+				<div class="form-group text-center">
+					<span>加盟区域：</span>
 					<select name="jiage_selt" class="btn btn-default">
 						<option value="">选择区域</option>
 						<option value="">不限</option>
@@ -94,18 +95,15 @@
 						<option value="">天津</option>
 						<option value="">重庆</option>
 						<option value="">广东</option>
-						<option value="">北京</option>
-						<option value="">北京</option>
-						<option value="">北京</option>
-						<option value="">北京</option>
-						<option value="">北京</option>
-						<option value="">北京</option>
-						<option value="">北京</option>
 					</select>
+				</div>
+			<div class="panel-body text-center input-group">
+				<input type="text" class="form-control" id="sou1" placeholder="搜索你想加盟的店"/>
+				<span class="input-group-btn">
+					<a href="searchshow.html" class="btn btn-default"><span class=" glyphicon glyphicon-search"></span></a>
+				</span>
 			</div>
-			<div class="panel-body text-center">
-				<a class="btn btn-success">搜索</a>
-			</div>
+    		</form>
         </div>
         <hr />
         <!--搜索显示-->
